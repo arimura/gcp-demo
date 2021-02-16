@@ -1,0 +1,18 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "gender",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "count",
+      "type": "INT64"
+    }
+  ]
+  
