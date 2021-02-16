@@ -12,3 +12,6 @@ bq-mk-dataset:
 
 bq-mk-table:
 	bq mk --table $(PRPJECT_ID):$(DATASET)$(SUFFIX).$(TABLE) ./data/table.json
+
+bq-load:
+	bq load --source_format=CSV $(PRPJECT_ID):$(DATASET)$(SUFFIX).$(TABLE) ./data/name-data.csv  
