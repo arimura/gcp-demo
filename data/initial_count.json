@@ -1,0 +1,13 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "initial",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "count",
+      "type": "INT64"
+    }
+  ]
+  
