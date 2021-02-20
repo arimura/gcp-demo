@@ -2,7 +2,7 @@
 include config.mk
 
 SUFFIX := $(shell date '+%Y%m%d')
-DATASET := name
+DATASET := babyname
 NAME_TABLE := name
 INITIAL_TABLE := initial_count
 
